@@ -1,0 +1,59 @@
+# JMGO S91A projector (product Y3, codename lonavla, MediaTek m7632)
+# Google TV on Android 14 (SDK 34), firmware UKNV.260415.001
+# Applied 2026-10-21 in three batches; home, Settings and the optics services checked after each.
+# The owner kept every ASK entry below. Based on examples/jmgo-n1s-holan.
+#
+# Apply:   TV_HOST=<tv ip> tools/disable.sh examples/jmgo-s91a-lonavla/debloat.txt
+# Undo:    TV_HOST=<tv ip> tools/restore.sh examples/jmgo-s91a-lonavla/debloat.txt com.google.android.apps.tv.launcherx
+# Everything is DISABLED, not uninstalled. Comment out any line you want to keep.
+#
+# Stock launcher: com.google.android.apps.tv.launcherx. HOME candidates: launcherx (priority 2),
+# setupwraith/.RecoveryActivity (priority 1), FallbackHome (-1000), same as the N1S.
+# Wireless debugging on also opens port 5555 without pairing, as on the N1S.
+# A second user (10, new_user) exists; everything here is for user 0 only.
+#
+# Never disable on this projector, the optics and the remote depend on them:
+#   com.jmgo.hippo, com.jmgo.tofautofocus, com.jmgo.autokeystone, com.jmgo.dewarping, com.jmgo.ptz,
+#   com.jmgo.autobrightness, com.jmgo.autocolortemp, com.jmgo.a2dpsinkservice,
+#   com.jmgo.android.tv.globalkeyoverlay, com.jmgo.remotecontrolota, com.jmgo.factory,
+#   com.softwinner.tvremoteserver, every com.mediatek.* and com.dolby.* package except the
+#   partner-row customizer below, com.android.tv.settings (JMGO's settings app).
+
+# JMGO telemetry
+com.jmgo.spider                        # com.jmgo.tracker: boot receiver, LogManagerActivity
+
+# JMGO extras
+com.jmgo.helpcenter                    # help centre; has a preinstall AppDownloadService and log catcher
+com.jmgo.overseas.atmosphere           # "Atmosphere" ambient scenes app
+
+# Retail demo
+fusion.android.tv.demo                 # store demo loop
+
+# Google telemetry
+com.google.android.feedback
+com.android.tv.feedbackconsent         # diagnostics consent prompt
+
+# Google preloads
+com.google.android.play.games
+
+# Partner rows on the stock home screen
+com.mediatek.android.leanbacklauncher.partnercustomizer
+
+# Launcher swap, applied together with installing launcher/. The saved Wi-Fi network belonged to
+# setupwraith (cname=...setupwraith in dumpsys wifi): forget it and join it again first, then the owner
+# is android.uid.system and disabling setupwraith keeps the network.
+com.google.android.tungsten.setupwraith
+com.google.android.apps.tv.launcherx
+
+# Known side effect: Settings crashes if you open its JMGO help entry, which starts com.jmgo.helpcenter.
+
+# ASK before disabling (left enabled unless the owner says otherwise):
+# com.google.android.katniss            # Google Assistant / voice search
+# com.google.android.apps.mediashell    # Chromecast built-in
+# com.screen.casting.x                  # Dangbei screen mirroring, installed 2026-10-07
+# com.jmgo.update                       # firmware updates
+# com.jmgo.aieyeprotector               # dims the beam when someone steps in front
+# com.jmgo.player                       # JMGO media player
+# com.mediatek.wwtv.mediaplayer         # USB/network media browser and player
+# com.google.android.youtube.tvmusic    # YouTube Music
+# com.google.android.marvin.talkback    # screen reader

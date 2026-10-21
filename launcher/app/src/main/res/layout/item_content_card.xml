@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- One title in the content row (ContentRow): the picture, and its name over a scrim at the bottom. -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingStart="10dp"
+    android:paddingEnd="10dp"
+    android:paddingTop="12dp"
+    android:paddingBottom="12dp"
+    android:clipChildren="false"
+    android:clipToPadding="false">
+
+    <FrameLayout
+        android:id="@+id/contentCard"
+        android:layout_width="224dp"
+        android:layout_height="126dp"
+        android:background="@drawable/content_card_bg"
+        android:foreground="@drawable/content_card_frame"
+        android:focusable="true"
+        android:clickable="true">
+
+        <ImageView
+            android:id="@+id/contentImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:importantForAccessibility="no" />
+
+        <TextView
+            android:id="@+id/contentLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="@drawable/content_card_scrim"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:paddingTop="22dp"
+            android:paddingBottom="9dp"
+            android:textColor="#FFFFFFFF"
+            android:textSize="14sp"
+            android:fontFamily="@font/outfit_medium"
+            android:maxLines="2"
+            android:ellipsize="end" />
+    </FrameLayout>
+</FrameLayout>
