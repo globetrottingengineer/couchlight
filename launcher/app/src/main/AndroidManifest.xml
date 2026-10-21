@@ -14,9 +14,10 @@
          FINE" rule does not apply here. -->
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"
         tools:ignore="CoarseFineLocation" />
-    <!-- Content shelf only (ContentShelf): TMDB trending lists and their backdrops, and on OK on a title card a
-         JustWatch lookup of that title's name to find its page in the app. Nothing else is sent; with
-         tmdb_api_key empty the launcher makes no requests. -->
+    <!-- Content shelf (ContentShelf): TMDB trending lists and their backdrops, and on OK on a title a JustWatch
+         lookup of its name to find its page in the app; with tmdb_api_key empty, none of these. Weather
+         (Weather, config weather): ipapi.co once a day for the place, Open-Meteo every half hour. Nothing else
+         is sent; README.md, Privacy, lists it all. -->
     <uses-permission android:name="android.permission.INTERNET" />
     <!-- The app menu's Uninstall row hands the app to the system uninstaller, which asks the owner. -->
     <uses-permission android:name="android.permission.REQUEST_DELETE_PACKAGES" />

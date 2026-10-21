@@ -161,7 +161,7 @@ final class Weather {
             c.setConnectTimeout(TIMEOUT_MS);
             c.setReadTimeout(TIMEOUT_MS);
             c.setRequestProperty("Accept", "application/json");
-            c.setRequestProperty("User-Agent", "CleanYourTV-launcher");
+            c.setRequestProperty("User-Agent", "Couchlight-launcher");
             if (c.getResponseCode() != 200) throw new IOException("HTTP " + c.getResponseCode());
             try (InputStream in = c.getInputStream()) {
                 ByteArrayOutputStream out = new ByteArrayOutputStream();
