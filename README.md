@@ -8,7 +8,7 @@ and a **Watch now** button that opens the title inside its app.
 Couchlight is a vibe-coded fork of [CleanYourTV](https://github.com/Gathin23/cleanyourtv) by Gathin, built in one
 evening with Claude Code on a JMGO S91A projector. Everything CleanYourTV does (no root, nothing uninstalled,
 a one-line restore, the debloat lists for 120+ TVs in [`examples/`](examples/)) still works; the original
-README is in [docs/CLEANYOURTV-README.md](docs/CLEANYOURTV-README.md).
+README is in [CLEANYOURTV.md](CLEANYOURTV.md).
 
 ## What Couchlight adds
 

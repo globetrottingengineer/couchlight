@@ -236,6 +236,49 @@
                     android:orientation="vertical">
 
                     <!-- Shamsi date ("27 Mehr 1405"), shown when shamsi_date is on. -->
+                        <!-- Weather (Weather, config weather): icon, temperature, then the sky, today's high and low and
+                             the place, dimmer. Gone until the first answer, so an offline TV keeps the plain date. -->
+                        <LinearLayout
+                            android:id="@+id/weatherRow"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="4dp"
+                            android:orientation="horizontal"
+                            android:gravity="center_vertical"
+                            android:visibility="gone">
+
+                            <ImageView
+                                android:id="@+id/weatherIcon"
+                                android:layout_width="19dp"
+                                android:layout_height="19dp"
+                                android:importantForAccessibility="no" />
+
+                            <TextView
+                                android:id="@+id/weatherTemp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="7dp"
+                                android:singleLine="true"
+                                android:textColor="#FFFFFFFF"
+                                android:textSize="16sp"
+                                android:fontFamily="@font/outfit_medium"
+                                android:includeFontPadding="false" />
+
+                            <TextView
+                                android:id="@+id/weatherText"
+                                android:gravity="left"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="10dp"
+                                android:singleLine="true"
+                                android:ellipsize="end"
+                                android:textColor="#A6FFFFFF"
+                                android:textSize="13sp"
+                                android:fontFamily="@font/outfit_regular"
+                                android:includeFontPadding="false" />
+                        </LinearLayout>
+
                     <TextView
                         android:id="@+id/shamsiDate"
                         android:gravity="right"

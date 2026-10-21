@@ -13,7 +13,7 @@
 </p>
 
 <p align="center">
-  <a href="docs/PRESS.md"><img src="docs/card.jpg" alt="123 TV models · 42 brands · 19 languages · 390 KB launcher. Featured in TechCrunch, Mashable, Android Authority, XDA, FlatpanelsHD, It's FOSS, Phandroid, GIGAZINE, Xataka, WinFuture, Frandroid, Macitynet, Techaeris, TechPP, The Daily Star, detikINET and 54 more: 70 articles from 21 countries. Before: stock Google TV home with a sponsored ad. After: the Clean Your TV launcher." width="800"></a>
+  <a href="docs/PRESS.md"><img src="docs/card.jpg" alt="124 TV models · 42 brands · 19 languages · 390 KB launcher. Featured in TechCrunch, Mashable, Android Authority, XDA, FlatpanelsHD, It's FOSS, Phandroid, GIGAZINE, Xataka, WinFuture, Frandroid, Macitynet, Techaeris, TechPP, The Daily Star, detikINET and 54 more: 70 articles from 21 countries. Before: stock Google TV home with a sponsored ad. After: the Clean Your TV launcher." width="800"></a>
 </p>
 
 > Vibe coded my parents' TV this afternoon! It was showing a sponsored ad before you could even get
@@ -125,6 +125,7 @@ BYINTEK, JMGO, Portronics, Stellamore, Wanbo and XGIMI projectors
 | Hitachi CDH-LE32SMART21 (TCL-built C06, C06_2K_GB, MediaTek MT9221, 1 GB), Argentina | Android TV 11 |
 | Insignia 55" F30 4K Fire TV (NS-55F301NA25, AFTDCT31, duckie) | Fire OS 7 / Android 9 |
 | JMGO N1S projector (K80A, holan, MediaTek m7332), Australia | Google TV 14 |
+| JMGO S91A projector (Y3, lonavla, MediaTek m7632), Germany | Google TV 14 |
 | Kalley R10G (device R10G, product ACER_FFM, MOKA, Realtek RTD2875P), Latin America | Google TV 14 |
 | MTC UK 2K Android TV (tabata, MediaTek m5621; JVC-family firmware, `android.autoinstalls.config.JVC` present), UK | Android TV 11 |
 | NVIDIA SHIELD TV 2019 tube (P3430, sif) | Android TV 11 |

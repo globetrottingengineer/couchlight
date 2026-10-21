@@ -103,4 +103,29 @@
     <string name="race_live">%1$s · בשידור חי</string>
     <string name="race_finished">הדגל המשובץ</string>
     <string name="last_opened">נפתח לאחרונה %1$s</string>
+
+    <!-- Couchlight: app menu, content shelf and weather. -->
+    <string name="app_menu_open">פתיחה</string>
+    <string name="app_menu_move">הזזה</string>
+    <string name="app_menu_move_hint">החצים מזיזים אותה, OK או חזרה מניחים אותה.</string>
+    <string name="app_menu_info">פרטי האפליקציה</string>
+    <string name="app_menu_store">הצגה בחנות Play</string>
+    <string name="app_menu_remove">הסרה ממסך הבית</string>
+    <string name="app_menu_removed">‏%1$s הוסרה ממסך הבית. אפשר להחזיר אותה מספריית האפליקציות.</string>
+    <string name="app_menu_uninstall">הסרת התקנה</string>
+    <string name="content_now_playing">מתנגן עכשיו ב-%1$s</string>
+    <string name="content_paused">מושהה ב-%1$s</string>
+    <string name="content_trending">פופולרי ב-%1$s</string>
+    <string name="content_watch_now">לצפייה</string>
+    <string name="content_resume">המשך</string>
+    <string name="content_series">סדרה</string>
+    <string name="content_film">סרט</string>
+    <string name="weather_clear">בהיר</string>
+    <string name="weather_partly">מעונן חלקית</string>
+    <string name="weather_cloudy">מעונן</string>
+    <string name="weather_fog">ערפל</string>
+    <string name="weather_rain">גשם</string>
+    <string name="weather_snow">שלג</string>
+    <string name="weather_thunder">סופת רעמים</string>
+    <string name="weather_high_low">מקס׳ %1$s  מינ׳ %2$s</string>
 </resources>
