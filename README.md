@@ -58,7 +58,7 @@ It was vibe-coded in one evening with Claude Code on a JMGO S91A projector, on t
 
 ## Before and after
 
-| Stock Google TV | Couchlight |
+| Stock Google TV | Couchlight-tvOS |
 |---|---|
 | <img src="docs/couchlight/before-google-tv.jpg" alt="Stock Google TV home: a Halloween Scare Fair promotion fills the top, Top picks for you below, apps as small circles at the bottom." width="100%"> | <img src="docs/couchlight/home.jpg" alt="Couchlight home: the film Tenzing trending on Apple TV fills the screen, with clock and weather at the top and the app row at the bottom." width="100%"> |
 | A promotion banner, picks from Google, apps pushed to the bottom | The focused app's own content, your apps in one row |
