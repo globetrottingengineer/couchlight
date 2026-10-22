@@ -1,4 +1,4 @@
-<h1 align="center">Couchlight</h1>
+<h1 align="center">Couchlight tvOS</h1>
 
 <p align="center">
   <b>Your TV's home screen, lit by what's on.</b><br>
